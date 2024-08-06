@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
+
+.nav-container {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  padding:10px;
+  border-radius: 30px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.nav-list {
+  
+  width: 40%;
+  
+}
+
+.nav-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  list-style: none;
+  width: 100%;
+ 
+}
+
+.download {
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  height: 576px;
+  background-color: black;
+}
+
+.container {
+  width: 80%;
+  background-color: red;
+  margin: auto;
+ 
+}
+
+.content {
+  display: flex;
+  background-color: blue;
+  height: 554px;
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left-cont {
+  width: 80%;
+  height: 70%;
+  background-color: red;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.new {
+  display: flex;
+  justify-content: space-between;
+  background-color: #D2D5DA;
+  width:90% ;
+  border-radius: 30px;
+ padding: 8px;
+}
+
+.new-para-1 {
+ width: 50px;
+ padding-bottom: 7px;
+ padding-top: 7px;
+ text-align: center;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}
+
+.nomadpari {
+ 
+  width: 55%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nomadpari img {
+  height: 15px;
+}
+
+.nomad-image {
+  width: 100%;
+  height: 100%;
+}
+
+.dot {
+ height: 30px;
+ width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.easier {
+  font-weight: bold;
+  font-size: 30px;
+}
