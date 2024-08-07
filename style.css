@@ -745,7 +745,7 @@ justify-content: space-between;
 
   .platform {
     height: fit-content;
-   
+    padding-bottom: 30px;
   }
   
   .platform-cont {
@@ -792,8 +792,6 @@ justify-content: space-between;
   
   .plat-para {
     font-size: 24px;
-    color: rgba(126, 134, 149, 1);
-    font-weight: 500;
   }
   
   .plat-btn {
@@ -804,14 +802,284 @@ justify-content: space-between;
     display: block;
     width: 166px;
     height: 55px;
-
-  padding: 14px 32px 14px 32px;
- 
-
+     padding: 14px 32px 14px 32px;
   } 
+
+
+  .simple {
+    height:100vh;
+  }
+  
+  
+  .simple-content {
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  
+  .simple-content h2 {
+   font-size:40px;
+  }
+  
+  .ol-flex {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+   
+  }
+
+  .ol-list {
+    width: 88%;
+  }
+  
+ 
+  
+  .con {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    
+  }
+  
+  .con-para {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .simple-img {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 390px;
+    padding: 20px;
+    height: fit-content;
+    align-items: center;
+  }
+
+  .col {
+    width: 100%;
+    height: 390px;
+    
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  
+  .faq {
+    height: 80vh;
+  }
+  
+  .faq-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .faq-left {
+    order: 2;
+  }
+  
+  .fl {
+    width: 342px;
+    height: 60px;
+  }
+  
+  .drop {
+    width: 32px;
+    height: 32px;
+  }
+  
+
+  .fa-solid {
+    font-size: 13px;
+  }
+  
+  
+  .fl p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .fl-div-3 p {
+    font-size: 13px;
+  }
+  
+  .faq-right {
+    height: fit-content;
+   display: flex;
+   flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ques {
+    width: 49px;
+    height: 100px;
+  }
+  
+  .ele {
+    width: 104px;
+    height: 60px;
+  }
+
+  .trial {
+    height: fit-content;
+   
+  }
+  
+  .trial-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .trial-left {
+   order: 2;
+    text-align: center;
+    width: 90%;
+    height: 192px;
+    
+    align-items: center;
+  }
+  
+  .qr {
+   display: none;
+  }
+  
+  .trial h3 {
+    font-size: 40px;
+  }
+  
+  .trial-right {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-flexx {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+  }
+  
+  .left-img,.right-img {
+    width: 158px;
+    height: 312%;
+  }
+  
+  .left-img {
+    position: relative;
+    top: 20px;
+  }
+  
+  .right-img {
+    position: relative;
+    top: 50px;
+  }
+
+  .hid {
+    width: 80%;
+  }
+  
+  footer {
+    height: 100vh;
+   
+  }
+  
+  footer h3 {
+    font-size: 24px;
+  }
+  
+  footer li {
+    font-size: 18px;
+  }
+  
+  .foot-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .upper-flex {
+    
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+ 
+  flex-direction: column;
+  }
+  
+  .info {
+    height: 30%;
+   
+    width: 90%;
+  }
+  
+  
+  .info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 80%;
+  }
   
   
   
+  .company {
+    height: 30%;
+    width: 90%;
+  }
+  
+  .company ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 80%;
+  }
+  
+  .follow {
+    height: 30%;
+    width: 90%;
+  }
+  
+  .follow ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 80%;
+  }
+  
+  hr {
+    width: 80%;
+   margin-left: 35px;
+   
+  }
+  
+  .rights {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  
+  
+  .rights p {
+    font-size: 14px;
+    text-align: center;
+  }
   
   
 }
